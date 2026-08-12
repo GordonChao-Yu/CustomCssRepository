@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@media (min-width: 1920px) {
+  .largeDesktopImage { display: inline-block !important; }
+}
+@media (min-width: 1137px) and (max-width: 1919px) {
+  .largeDesktopImage { display: none !important; }
+}
+@media (min-width: 734px) and (max-width: 1136px) {
+  .largeDesktopImage { display: none !important; }
+}
+@media (max-width: 733px) {
+  .largeDesktopImage { display: none !important; }
+}
+@media (min-width: 1920px) {
+  .desktopImage { display: none !important; }
+}
+@media (min-width: 1137px) and (max-width: 1919px) {
+  .desktopImage { display: inline-block !important; }
+}
+@media (min-width: 734px) and (max-width: 1136px) {
+  .desktopImage { display: none !important; }
+}
+@media (max-width: 733px) {
+  .desktopImage { display: none !important; }
+}
+@media (min-width: 1920px) {
+  .tabletImage { display: none !important; }
+}
+@media (min-width: 1137px) and (max-width: 1919px) {
+  .tabletImage { display: none !important; }
+}
+@media (min-width: 734px) and (max-width: 1136px) {
+  .tabletImage { display: inline-block !important; }
+}
+@media (max-width: 733px) {
+  .tabletImage { display: none !important; }
+}
+@media (min-width: 1920px) {
+  .mobileImage { display: none !important; }
+}
+@media (min-width: 1137px) and (max-width: 1919px) {
+  .mobileImage { display: none !important; }
+}
+@media (min-width: 734px) and (max-width: 1136px) {
+  .mobileImage { display: none !important; }
+}
+@media (max-width: 733px) {
+  .mobileImage { display: inline-block !important; }
+}
+.RADIUS1 .global-image-border { border-radius: 0.6em; }
+.RADIUS2 .global-image-border { border-radius: 0.3em; }
+.RADIUS3 .global-image-border { border-radius: 0px; }
+.HAS_IMAGE_SHADOWS .settingImageShadow { box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px; transition: 0.2s ease-in; }
+.HAS_IMAGE_SHADOWS .hoverZoomIn .imageLazyloadBox, .HAS_IMAGE_SHADOWS .hoverZoomIn .product-r-18-image-overlay { transition: 0.3s cubic-bezier(0, 0, 0.5, 1); }
+.HAS_IMAGE_SHADOWS .hoverZoomIn .imageLazyloadBox:hover, .HAS_IMAGE_SHADOWS .hoverZoomIn .product-r-18-image-overlay:hover { transform: scale(1.005); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 12px; }
+@media (min-width: 734px) and (max-width: 1136px) {
+  .HAS_IMAGE_SHADOWS .hoverZoomIn .imageLazyloadBox:hover, .HAS_IMAGE_SHADOWS .hoverZoomIn .product-r-18-image-overlay:hover { transform: scale(1); box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px; }
+}
+@media (max-width: 733px) {
+  .HAS_IMAGE_SHADOWS .hoverZoomIn .imageLazyloadBox:hover, .HAS_IMAGE_SHADOWS .hoverZoomIn .product-r-18-image-overlay:hover { transform: scale(1); box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px; }
+}
+.HAS_IMAGE_SHADOWS .hoverZoomIn__banner .imageLazyloadBox { transition: 0.3s cubic-bezier(0, 0, 0.5, 1); }
+.HAS_IMAGE_SHADOWS .hoverZoomIn__banner .imageLazyloadBox:hover { transform: scale(1.002); box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 10px; }
+@media (min-width: 734px) and (max-width: 1136px) {
+  .HAS_IMAGE_SHADOWS .hoverZoomIn__banner .imageLazyloadBox:hover { transform: scale(1); box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px; }
+}
+@media (max-width: 733px) {
+  .HAS_IMAGE_SHADOWS .hoverZoomIn__banner .imageLazyloadBox:hover { transform: scale(1); box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 8px; }
+}
+.HAS_IMAGE_SHADOWS .bannerSwiperProductImage__hasImageShadow { padding-top: 2px; }
+.HAS_IMAGE_SHADOWS .swiper-container-horizontal > .swiper-pagination-bullets { bottom: 30px !important; }
+@media (max-width: 733px) {
+  .HAS_IMAGE_SHADOWS .swiper-container-horizontal > .swiper-pagination-bullets { bottom: 30px !important; }
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-rendering: optimizelegibility !important; -webkit-font-smoothing: antialiased !important; }
+:focus, :active { outline: none; }
+@media (min-width: 734px) and (max-width: 1136px) {
+  a:hover { text-decoration: none; }
+}
+@media (max-width: 733px) {
+  a:hover { text-decoration: none; }
+}
+body, html, #app { margin: 0px; padding: 0px; width: 100%; height: auto; color: rgb(0, 0, 0); font-family: "SF Pro TC", "SF Pro Text", "PingFang TC", Roboto, "Noto Sans TC", sans-serif; }
+.fixedBack { overflow: hidden !important; }
+.relativeP { position: relative; }
+.absoluteP { position: absolute; }
+.crossLine { text-decoration: line-through; }
+.underLine { text-decoration: underline; }
+.blockLine { width: 100%; clear: both; border-bottom: 1px solid rgb(239, 239, 239); }
+.cursorDefault { cursor: default !important; }
+.cursorPointer { cursor: pointer !important; }
+.itemMarginSmall { margin: 10px 0px; }
+.margin__space { width: 100%; margin: 30px 0px; height: 1px; }
+@media (min-width: 734px) and (max-width: 1136px) {
+  .margin__space { margin: 20px 0px; }
+}
+@media (max-width: 733px) {
+  .margin__space { margin: 20px 0px; }
+}
+.margin__medium { width: 100%; margin: 12px 0px; height: 1px; }
+.margin__small { width: 100%; margin: 5px 0px; height: 1px; }
+.opacityZero { opacity: 0; }
+.opacityHalf { opacity: 0.5; }
+.box__shadow { box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 8px; }
+.box__shadow__up { box-shadow: rgba(100, 100, 100, 0.1) -3px -3px 5px; }
+.activeBtn { color: rgb(0, 0, 0); font-weight: 700 !important; text-decoration: underline !important; }
+.subActiveBtn { color: rgb(0, 0, 0); text-decoration: underline !important; }
+.redDot { position: absolute; top: -2px; display: inline-block; width: 5px; height: 5px; border-radius: 50%; background-color: rgb(208, 2, 27); }
+.swiper__image, .swiper__mobile__image { width: 100%; object-fit: cover; }
+.display-block { display: block !important; }
+.scrollBar::-webkit-scrollbar-track { background-color: rgb(250, 250, 250); border-radius: 2px; }
+.scrollBar::-webkit-scrollbar { width: 7px; background-color: rgb(250, 250, 250); border-radius: 2px; }
+.scrollBar::-webkit-scrollbar-thumb { background-color: rgb(201, 201, 201); border-radius: 5px; }
+.productPriceFontSize__list__large { font-size: 16px !important; }
+.productPriceFontSize__detail__default { font-size: 15px !important; }
+.productPriceFontSize__detail__large { font-size: 20px !important; }
