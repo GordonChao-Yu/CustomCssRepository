@@ -1,3 +1,4 @@
 main.content-area {flex: 1; display: flex; align-items: center; justify-content: center;}
 .login-card { width: 100%; max-width: 400px; padding: 2rem; border-radius: 0.5rem; box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1); background: white; }
-.loginform { min-height: 80vh;}
+
+
