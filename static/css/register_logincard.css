@@ -1,27 +1,26 @@
 @media (min-width: 768px) {
-    .register-container {
-        width: 410px;
-        border-radius: 16px;
-    }
-    .register-container {
-        background-color: rgb(255, 255, 255);
-    .hpfCvW {
-        display: none;
-      }
-      .cDOehn {
-        display: block;
-        font-size: 24px;
-        line-height: 30px;
-        font-weight: 600;
-        color: rgb(34, 34, 34);
-        padding: 40px 0px 24px;
-        margin: 0px;
-        text-align: center;
-        position: relative;
-    }
-    .kueIuc {
-        padding: 24px 40px 40px;
-    }
+  .register-container {
+    width: 410px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+  }
+  .hpfCvW {
+    display: none;
+  }
+  .cDOehn {
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+    padding: 40px 0px 24px;
+    margin: 0px;
+    text-align: center;
+    position: relative;
+  }
+  .kueIuc {
+    padding: 24px 40px 40px;
+  }
 }
 .hpfCvW {
     width: 100%;
