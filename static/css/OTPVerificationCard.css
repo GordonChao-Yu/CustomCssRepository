@@ -36,6 +36,9 @@
         height: 60px;
     }
 }
+.verification_frame {
+    background: rgb(255, 255, 255);
+}
 .verification_message {
     margin-top: 32px;
     font-size: 14px;
