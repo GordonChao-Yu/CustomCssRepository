@@ -1,145 +1,144 @@
-<style>
-    @media screen and (min-width: 768px) {
-        .verification_frame {
-            width: 410px;
-            border-radius: 16px;
-        }
+@media screen and (min-width: 768px) {
+    .verification_frame {
+        width: 410px;
+        border-radius: 16px;
     }
-    @media (min-width: 768px) {
-        .buQZZR {
-            display: block;
-            font-size: 24px;
-            line-height: 30px;
-            font-weight: 600;
-            color: rgb(34, 34, 34);
-            padding: 40px 0px 24px;
-            margin: 0px;
-            text-align: center;
-            position: relative;
-        }
-        .buQZZR .sc-EgOXT {
-            position: absolute;
-            left: 25px;
-            top: 55px;
-            transform: translateY(-50%);
-        }
-        .verification_container {
-            padding: 16px 0px 40px;
-        }
-        .verification_message {
-            margin-top: 0px;
-        }
-        .verification_form {
-            width: 295px;
-        }
-        .kueIue {
-            width: 56px;
-            height: 60px;
-        }
-    }
-    .verification_message {
-        margin-top: 32px;
-        font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.71;
-        letter-spacing: 0.3px;
-        text-align: center;
-        color: rgb(34, 34, 34);
-    }
-    .verification_form {
-        margin: 0px auto;
-    }
-    .verification_code_block {
-        display: flex;
-        flex-direction: row;
-        -webkit-box-pack: justify;
-        justify-content: space-between;
-        margin-top: 28px;
-    }
-    .kueIue {
-        padding: 4px;
-        border-radius: 8px;
-        border: 1.5px solid rgb(244, 244, 244);
-        background-color: rgb(244, 244, 244);
-        width: 64px;
-        height: 68px;
-        font-size: 30px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 0.67;
-        letter-spacing: 0.5px;
-        text-align: center;
-        color: rgb(34, 34, 34);
-    }
-    .kjYQLy {
-        width: 54px;
-        height: 54px;
-        display: flex;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        justify-content: center;
-        cursor: pointer;
-    }
-    .iDLQHp {
-        width: 24px;
-        height: 24px;
-    }
-    .hbttmZ {
-        margin-top: 24px;
-    }
-    fNtYng {
-        background-color: rgb(34, 34, 34);
-        color: rgb(255, 255, 255);
-        font-size: 16px;
-        line-height: 50px;
-        text-align: center;
-        display: flex;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        justify-content: center;
-        width: 100%;
-        height: 50px;
-        border-radius: 8px;
-        cursor: pointer;
-        outline: none;
-        border: unset;
+}
+@media (min-width: 768px) {
+    .buQZZR {
+        display: block;
+        font-size: 24px;
+        line-height: 30px;
         font-weight: 600;
+        color: rgb(34, 34, 34);
+        padding: 40px 0px 24px;
+        margin: 0px;
+        text-align: center;
         position: relative;
     }
-    .jLlHet {
-        margin-top: 24px;
-        height: 38px;
-        display: flex;
-        flex-direction: row;
-        -webkit-box-align: center;
-        align-items: center;
-        -webkit-box-pack: center;
-        justify-content: center;
-        gap: 8px;
+    .buQZZR .sc-EgOXT {
+        position: absolute;
+        left: 25px;
+        top: 55px;
+        transform: translateY(-50%);
     }
-    .bNfXpC {
-        font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        letter-spacing: 0.25px;
-        text-align: left;
-        color: rgb(118, 118, 118);
+    .verification_container {
+        padding: 16px 0px 40px;
     }
-    .kkXMHw {
-        font-size: 14px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        letter-spacing: 0.25px;
-        text-align: left;
-        text-decoration: underline;
-        cursor: pointer;
-        color: rgb(34, 34, 34);
+    .verification_message {
+        margin-top: 0px;
     }
-</style>
+    .verification_form {
+        width: 295px;
+    }
+    .kueIue {
+        width: 56px;
+        height: 60px;
+    }
+}
+.verification_message {
+    margin-top: 32px;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: rgb(34, 34, 34);
+}
+.verification_form {
+    margin: 0px auto;
+}
+.verification_code_block {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+.kueIue {
+    padding: 4px;
+    border-radius: 8px;
+    border: 1.5px solid rgb(244, 244, 244);
+    background-color: rgb(244, 244, 244);
+    width: 64px;
+    height: 68px;
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.67;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: rgb(34, 34, 34);
+}
+.kjYQLy {
+    width: 54px;
+    height: 54px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.iDLQHp {
+    width: 24px;
+    height: 24px;
+}
+.hbttmZ {
+    margin-top: 24px;
+}
+fNtYng {
+    background-color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    border: unset;
+    font-weight: 600;
+    position: relative;
+}
+.jLlHet {
+    margin-top: 24px;
+    height: 38px;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 8px;
+}
+.bNfXpC {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.25px;
+    text-align: left;
+    color: rgb(118, 118, 118);
+}
+.kkXMHw {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.25px;
+    text-align: left;
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(34, 34, 34);
+}
+
